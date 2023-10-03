@@ -37,14 +37,6 @@
 // 9. File and line info
 #define FILE_LINE_INFO __FILE__ << ":" << __LINE__
 
-// 10. Include guards
-#ifndef MY_HEADER_H
-#define MY_HEADER_H
-
-// Your header content here
-
-#endif // MY_HEADER_H
-
 // 11. Compiler-specific macros
 #ifdef __cplusplus
 #define EXTERN_C_BEGIN extern "C" {
